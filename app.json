@@ -1,0 +1,28 @@
+{
+  "pages": [
+    
+    "pages/work_plan/work_plan",
+    "pages/work/work",
+    "pages/personal_Center/personal_Center",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "selectedIconPath": "pages/img/icon/aspect_active.png",
+        "iconPath": "pages/img/icon/aspect.png",
+        "pagePath": "pages/work/work",
+        "text": "工作首页"
+      },
+      {
+        "selectedIconPath": "pages/img/icon/body_active.png",
+        "iconPath": "pages/img/icon/body.png",
+        "pagePath": "pages/personal_Center/personal_Center",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

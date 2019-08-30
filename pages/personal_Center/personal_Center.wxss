@@ -1,0 +1,59 @@
+.hearder_top{
+  text-align: center;
+  font-size: 34rpx;
+  color: #333333;
+  background-color: white;
+  margin: 1px 0px 0px;
+  padding: 28rpx 0px 40rpx;
+}
+.wei{
+  width: 128rpx;height: 128rpx;border-radius: 50%; margin-right: 20rpx; 
+  overflow: hidden;
+  position: relative;
+  z-index: 999;
+  margin: 0px auto 24rpx;
+}
+.personal_List{
+  font-size: 30rpx;
+  color: #333333;
+  width:650rpx;
+  height:305rpx;
+  background:rgba(255,255,255,1);
+  border-radius:10rpx;
+  margin:31rpx  auto 0px;
+  padding: 0px 21rpx 0px 23rpx;
+}
+.information_Image{
+  width: 45rpx;
+  height: 50rpx;
+  margin-right: 30rpx;
+  vertical-align: middle;
+}
+.right{
+  width: 14rpx;
+  height: 24rpx;
+}
+.personal_List>view{
+  padding: 28rpx 0px;
+  border-bottom: 1px solid #E6E6E6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  color: #333333;
+}
+.personal_List>view:last-child{
+  border: none;
+}
+.finished_Image{
+  width: 44rpx;
+  height: 35rpx;
+  margin-right: 33rpx;
+  vertical-align: middle;
+}
+.unfinished_Image{
+  width: 50rpx;
+  height: 30rpx;
+  margin-right: 30rpx;
+  vertical-align: middle;
+}

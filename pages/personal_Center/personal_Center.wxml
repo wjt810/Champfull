@@ -1,0 +1,29 @@
+<view>
+  <view class="hearder_top">
+     <view class="wei"><open-data  type="userAvatarUrl" class='price'></open-data></view>
+     <view>{{userInfo.nickName}}</view>
+  </view>
+  <view class="personal_List">
+    <view bindtap="personal_Information" class="personal_Information list">
+      <view>
+        <image src='/pages/img/icon/personal.png' class="information_Image"></image>
+        <text>个人信息</text>
+      </view>
+      <image src='/pages/img/icon/right.png' class="right"></image>
+    </view>
+    <view bindtap="personal_Information" class="work_finished list">
+      <view>
+        <image src='/pages/img/icon/o.png' class="finished_Image"></image>
+        <text>已完成</text>
+      </view>
+      <image src='/pages/img/icon/right.png' class="right"></image>
+    </view>
+    <view bindtap="personal_Information" class="work_unfinished list">
+      <view>
+        <image src='/pages/img/icon/order2.png' class="unfinished_Image"></image>
+        <text>未完成</text>
+      </view>
+      <image src='/pages/img/icon/right.png' class="right"></image>
+    </view>
+  </view>
+</view>

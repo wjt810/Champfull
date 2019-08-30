@@ -1,0 +1,11 @@
+<view>
+  <view class="work_List">
+    <view bindtap="work_plan" class="work_plan list">
+      <view>
+        <image src='/pages/img/icon/work_plan.png' class="work_plan_image"></image>
+        <text>工作计划</text>
+      </view>
+      <image src='/pages/img/icon/right.png' class="right"></image>
+    </view>
+  </view>
+</view>

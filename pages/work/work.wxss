@@ -1,0 +1,31 @@
+.work_List{
+  font-size: 30rpx;
+  color: #333333;
+  width:650rpx;
+  background:rgba(255,255,255,1);
+  border-radius:10rpx;
+  margin:31rpx  auto 0px;
+  padding: 0px 21rpx 0px 23rpx;
+}
+.work_plan_image{
+  width: 45rpx;
+  height: 50rpx;
+  margin-right: 30rpx;
+  vertical-align: middle;
+}
+.right{
+  width: 14rpx;
+  height: 24rpx;
+}
+.work_List>view{
+  padding: 28rpx 0px;
+  border-bottom: 1px solid #E6E6E6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  color: #333333;
+}
+.work_List>view:last-child{
+  border: none;
+}
